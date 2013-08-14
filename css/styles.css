@@ -1,0 +1,123 @@
+/* 
+    Document   : newCascadeStyleSheet
+    Created on : Aug 3, 2013, 4:04:29 PM
+    Author     : daniel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    background: #ECF0F1;
+
+}
+
+
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 3%;
+    height: 100%;
+    background: #3498DB;
+    z-index: 1000;
+
+}
+
+ul.sidebar-nav{
+    list-style: none;
+    margin-left: 0;
+    margin-top: 10px;
+    
+}
+
+.sidebar ul li{
+    margin-left: -32px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar ul li a{
+    color: #fff;
+}
+
+.sidebar ul li a:hover{
+    color: #fc6;
+}
+
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+    
+    /* Specify the width of your pageslide here */
+    width: 30%;
+    padding-left: 3%;
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #fff;
+}
+
+.container{
+    padding-left:5%; 
+    padding-top: 1%;
+    position: relative; 
+    left: 0;
+    z-index: 50;
+}
+
+.well {
+  min-height: 20px;
+  padding: 5px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.thumbnail{
+      -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+          border: none;
+          margin: 0px;
+              
+}
+
+
+
+
+.w-25{ width: 25%; }
+.w-30{ width: 30%; }
+.w-40{ width: 40%; }
+.w-50{ width: 50%; }
+.w-60{ width: 60%; }
+.w-70{ width: 70%; }
+.w-75{ width: 75%; }
+.w-100{ width: 100%; }
+
+.h-25{ height: 25%; }
+.h-30{ height: 30%; }
+.h-40{ height: 40%; }
+.h-50{ height: 50%; }
+.h-60{ height: 60%; }
+.h-70{ height: 70%; }
+.h-75{ height: 75%; }
+.h-100{ height: 100%; }

@@ -1,0 +1,84 @@
+body{
+    background: #ecf0f1;
+}
+
+.grey{
+    color: #2ECC71;
+}
+
+.nav{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 4%;
+    height: 100%;
+    background: #3498DB;
+    z-index: 1000;
+}
+
+.nav li a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav li:hover{
+    width: 140%;
+
+}
+
+.nav li a:hover{
+        background:#fbfbfc;
+    color: #2C3E50;
+
+}
+
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+    
+    /* Specify the width of your pageslide here */
+    width: 30%;
+    padding-left: 6%;
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background-color: #fff;
+}
+
+.container{
+    padding-left:3%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: relative; 
+    left: 0;
+    z-index: 50;
+}
+
+.well {
+  min-height: 20px;
+  
+  padding: 10px 15px 10px 20px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.thumbnail{
+      -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+          border: none;
+          margin: 0px;
+              
+}
